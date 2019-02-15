@@ -27,6 +27,9 @@ public class Cafe {
 
         /* builds new coffee object */
         return new Coffee(coffeeType, requiredBeans, requiredMilk);
+
+        /* 20181214, change this to break tests*/
+        //return new Coffee(null, 1 + requiredBeans, 1 + requiredMilk);
     }
 
     /* method to restock beans */
